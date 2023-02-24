@@ -110,9 +110,7 @@ footer {
 }
 
 footer h3 {
-  text-align: right;
   font-size: 16px;
-  margin-bottom: 5px;
 }
 
 footer a {
@@ -133,7 +131,7 @@ footer a {
 /*================ Media queries ===================*/
 
 @media (max-width: 1020px) {
-  .credits, .message {
+  .from, .message {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
@@ -152,8 +150,8 @@ footer a {
   }
 }
 
-@media (max-width: 450px) {
-  .credits, .message {
+@media (max-width: 520px) {
+  .from, .message {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -176,10 +174,5 @@ footer a {
   }
   footer {
     padding: 20px 20px;
-  }
-  footer h3 {
-    padding: 20px, 2rem;
-    width: 80%;
-    margin: 0 auto;
   }
 }
