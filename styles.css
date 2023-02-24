@@ -1,0 +1,185 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.opensans {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.serif {
+  font-family: 'Source Serif Pro', serif !important;
+}
+
+.allure {
+  font-family: 'Allura', cursive !important;
+  font-size: 30px;
+}
+
+.header {
+  background-color: antiquewhite;
+  padding: 10px 10px;
+  width: 100%;
+}
+
+.centertext {
+  text-align: center;
+}
+
+.header p {
+  margin-bottom: 1rem;
+}
+
+#title {
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 4rem;
+}
+
+#img-div {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./images/old-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  padding: 1rem;
+}
+
+#img-div img {
+  border: 10px solid antiquewhite;
+  box-shadow: 10px 15px rgba(0,0,0,0.4);
+  display: block;
+  margin: 2rem auto;
+}
+
+#img-caption {
+  text-align: center;
+  margin-top: 3px;
+  margin-bottom: 1.5rem;
+}
+
+#tribute-info {
+  background-color: #DFDFDF;
+  padding: 10px 10%
+}
+
+#tribute-info h2 {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  padding-bottom: 10px
+}
+
+#tribute-info li {
+  width: 50%;
+  margin: 20px auto;
+  list-style: none;
+}
+
+#tribute-info h4 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.message {
+  padding: 10px 30px;
+  width: 50%;
+  margin: 3rem auto 0 auto;
+}
+
+.from {
+  text-align: right;
+  margin: 0 auto 40px auto;
+  width: 50%
+}
+
+footer {
+  background-color: #DFF0D8;
+  padding: 20px 15rem;
+  width: 100%
+}
+
+footer h3 {
+  text-align: right;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+footer a {
+  color: black;
+  margin-bottom: -5px;
+}
+
+.credits {
+  display: block;
+  text-align: right;
+  padding: 0;
+}
+
+.margin-close {
+  margin-bottom: -5px;
+}
+
+/*================ Media queries ===================*/
+
+@media (max-width: 1020px) {
+  .credits, .message {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  #img-div img {
+    width: 250px;
+    margin-top: 4rem;
+  }
+  li, #img-caption {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  footer {
+    padding: 9rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .credits, .message {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  #tribute-info{
+    padding: 10px 0;
+  }
+  #tribute-info h2{
+    font-size: 23px;
+  }
+  #img-div img {
+    width: 250px;
+    margin-top: 3rem;
+  }
+  li, #img-caption {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-size: 19px;
+  }
+  footer {
+    padding: 20px 20px;
+  }
+  footer h3 {
+    padding: 20px, 2rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
